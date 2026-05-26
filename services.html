@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buff & Bare | Hair Removal Clinic | St Albans & Hitchin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400...600&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+ 
+<style>
+
+/* ---------- GLOBAL ---------- */
+:root {
+    --eucalyptus: #A7B19C;
+    --light-eucalyptus: #d1ddc5;
+    --olive: #717C5F;
+    --terracotta: #CC7A50;
+    --gb-bedugul: #4E7777;
+    --navy: #2C3E44;
+    --gb-kiku: #E1c495;
+    --nutmeg: #8F6D3C;
+    --mushroom: #A19985;
+    --golden-sand: #E1AF69;
+    --gb-tartan: #D6C5A2;
+    --cognac: #6C492F;
+    --cream: #FAF6E3;
+    --white: #FFFFFF;
+    --tagline: var(--white);    
+    --gb-taupe-twist: #DDD5C1;
+    --gb-elderton: #715A4D;
+    --gb-toasted-teacup: #A1805C;
+    --gb-petrol: #1D3838;
+    --gb-fetish: #46423C;
+    --burnt-sienna: #A86D43;
+    --dusty-rose: #BC8072;
+    --charcoal: #3B3835;
+    --warm-ivory: #e6dbc3;
+}
+
+.tagline {
+    font-size: 36px;/*clamp(0.9rem, 1.5vw, 1.1rem)*/
+    /* letter-spacing: 0.15em; */
+    color: var(--gb-petrol);
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+}
+.container{
+    width:min(1100px, 92%);
+    margin:auto;
+    
+}
+
+h1 {
+    padding-bottom: 20px;
+
+}
+
+/* ---------- QUICK FACTS ---------- */
+
+.facts{
+    margin-top:20px;
+    margin-bottom:90px;
+}
+
+.facts-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    text-align: center;
+}
+
+.fact-card{
+    background:var(--light-eucalyptus);
+    padding:28px;
+    border-radius: 20px;
+    box-shadow:gray;
+    border:1px solid var(--gb-petrol);
+}
+
+.fact-label{
+    font-size:0.9rem;
+    color:var(--gb-elderton);
+    margin-bottom:10px;
+}
+
+.fact-value{
+    font-size:1.1rem;
+    font-weight:700;
+    color:var(--charcoal);
+}
+
+
+
+/* ---------- ACCORDIONS ---------- */
+
+.accordion-group{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.accordion{
+    background:var(--warm-ivory);
+    border-radius:20px;
+    overflow:hidden;
+    /* border:1px solid var(--gb-petrol); */
+    box-shadow:var(--shadow);
+}
+
+.accordion-header{
+    width:100%;
+    border:none;
+    background:var(--warm-ivory);
+    padding:26px 30px;
+    text-align:left;
+    font-size:1.1rem;
+    font-weight:700;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.accordion-header span{
+    font-size:1.5rem;
+    transition:0.3s ease;
+}
+
+.accordion-content{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.4s ease;
+}
+
+.accordion-inner{
+    padding:0 30px 30px;
+    color:var(--muted);
+}
+
+.accordion-inner p{
+    margin-bottom:18px;
+}
+
+.accordion-inner .question{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.accordion-inner ul{
+    padding-left:20px;
+}
+
+.accordion-inner li{
+    margin-bottom:6px;
+}
+
+
+/* ---------- RESPONSIVE ---------- */
+
+@media(max-width:900px){
+
+
+    .facts-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+
+}
+
+@media(max-width:600px){
+
+    .facts-grid{
+        grid-template-columns:1fr 1fr;
+        text-align: center;
+    }
+
+    .accordion-header{
+        padding:22px;
+    }
+
+    .accordion-inner{
+        padding:0 22px 24px;
+    }
+}
+
+</style>    
+</head>
+<body>
+    <!-- Header -->
+<div id="header-placeholder"></div>
+
+ 
+    <!-- Services Overview -->
+    <section class="services" id="laser">
+        <div class="services-content">
+            <p class="section-label"><br/>FOCUS ON: LASER HAIR REMOVAL</p>
+            <h1>Laser hair removal</h1>
+            <p class="tagline">Smooth skin. <br/>Long term results</p>
+	
+            <p>
+            Laser and IPL hair removal are long-term hair reduction treatments that use light energy to target and damage hair follicles. This helps slow down and reduce future hair growth over time.<br/>
+            The treatment works by directing light into the pigment (melanin) within the hair. The heat from the light damages the follicle while leaving the surrounding skin unharmed.<br/>
+            Because hair grows in cycles, multiple appointments are needed to achieve the best results. Treatments are timed to target hairs during their active growth stage.<br/>
+            Laser and IPL treatments can be used on both the face and body.
+            </p>
+        </div>
+        <div class="services-content">
+        
+                <section class="facts">
+                    <div class="container">
+                        <div class="facts-grid">
+                            <div class="fact-card">
+                                <div class="fact-label">Treatment Time</div>
+                                <div class="fact-value">10–60 mins</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Downtime</div>
+                                <div class="fact-value">Minimal</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Best For</div>
+                                <div class="fact-value">Face & Body</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Recommended Sessions</div>
+                                <div class="fact-value">6+ Treatments</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </div>
+ 
+
+ <!-- DETAILS -->
+
+<div class="services-content">
+    <div class="container">
+            <p>Explore the treatment process, suitability, preparation and aftercare for Laser & IPL Hair Removal at Buff & Bare.</p>
+
+        <div class="accordion-group">
+            <div class="accordion">
+                <button class="accordion-header">What It Is<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Laser and IPL hair removal are long-term hair reduction treatments that use light energy to target and damage hair follicles.
+                           The treatment works by directing light into the pigment within the hair, helping reduce future hair growth over time.
+                           Because hair grows in cycles, multiple appointments are needed to achieve the best results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Who Can Have It<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Laser & IPL hair removal is suitable for many people looking to reduce unwanted hair growth on the face or body.</p>
+                        <ul>
+                            <li>Most effective on darker hair</li>
+                            <li>Suitable for many skin types</li>
+                            <li>Grey and white hair cannot usually be treated effectively</li>
+                            <li>A consultation and patch test are required before treatment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Preparation<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Before treatment, we’ll assess your skin and hair type, discuss your medical history and answer any questions you may have.
+                           At each appointment your skin will be cleaned and prepared before treatment begins.
+                           Protective goggles are always provided during treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">The Experience<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>During treatment, a handheld device delivers pulses of light into the hair follicles while protecting the surrounding skin.
+                           Some treatments include cooling technology to make the experience more comfortable.
+                           Most clients describe the sensation as similar to a quick elastic band snap against the skin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Aftercare<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Mild redness or warmth after treatment is completely normal and usually settles within a few hours.
+                           Treated hairs will gradually shed over the following 1–3 weeks.
+                           We’ll provide personalised aftercare advice and let you know when it is safe to resume normal skincare products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion"><button class="accordion-header">FAQs<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p><div class="question">How many sessions will I need?</div>
+                        Most clients require at least 6 treatments for best results.</p>
+                        <p><div class="question">Does it hurt?</div>
+                        Most people find the treatment very manageable with mild discomfort.</p>
+                        <p><div class="question">Can it treat all hair colours?</div>
+                        Laser & IPL work best on darker hair and are not usually effective on grey or white hair.</p>
+                        <p><div class="question">How often are appointments?</div>
+                        Treatments are usually spaced 4–8 weeks apart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ELECTROLYSIS -->
+<section class="services" id="electrolysis">
+        <div class="services-content">
+            <p class="section-label"><br/>FOCUS ON: ELECTROLYSIS</p>
+            <h1>Electrolysis</h1>
+            <p class="tagline">Smooth skin. <br/>Long term results</p>
+	
+            <p>
+            Laser and IPL hair removal are long-term hair reduction treatments that use light energy to target and damage hair follicles. This helps slow down and reduce future hair growth over time.<br/>
+            The treatment works by directing light into the pigment (melanin) within the hair. The heat from the light damages the follicle while leaving the surrounding skin unharmed.<br/>
+            Because hair grows in cycles, multiple appointments are needed to achieve the best results. Treatments are timed to target hairs during their active growth stage.<br/>
+            Laser and IPL treatments can be used on both the face and body.
+            </p>
+        </div>
+        <div class="services-content">
+        
+                <section class="facts">
+                    <div class="container">
+                        <div class="facts-grid">
+                            <div class="fact-card">
+                                <div class="fact-label">Treatment Time</div>
+                                <div class="fact-value">10–60 mins</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Downtime</div>
+                                <div class="fact-value">Minimal</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Best For</div>
+                                <div class="fact-value">Face & Body</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Recommended Sessions</div>
+                                <div class="fact-value">6+ Treatments</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </div>
+ 
+
+ <!-- DETAILS -->
+
+<div class="services-content">
+    <div class="container">
+            <p>Explore the treatment process, suitability, preparation and aftercare for Laser & IPL Hair Removal at Buff & Bare.</p>
+
+        <div class="accordion-group">
+            <div class="accordion">
+                <button class="accordion-header">What It Is<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Laser and IPL hair removal are long-term hair reduction treatments that use light energy to target and damage hair follicles.
+                           The treatment works by directing light into the pigment within the hair, helping reduce future hair growth over time.
+                           Because hair grows in cycles, multiple appointments are needed to achieve the best results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Who Can Have It<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Laser & IPL hair removal is suitable for many people looking to reduce unwanted hair growth on the face or body.</p>
+                        <ul>
+                            <li>Most effective on darker hair</li>
+                            <li>Suitable for many skin types</li>
+                            <li>Grey and white hair cannot usually be treated effectively</li>
+                            <li>A consultation and patch test are required before treatment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Preparation<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Before treatment, we’ll assess your skin and hair type, discuss your medical history and answer any questions you may have.
+                           At each appointment your skin will be cleaned and prepared before treatment begins.
+                           Protective goggles are always provided during treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">The Experience<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>During treatment, a handheld device delivers pulses of light into the hair follicles while protecting the surrounding skin.
+                           Some treatments include cooling technology to make the experience more comfortable.
+                           Most clients describe the sensation as similar to a quick elastic band snap against the skin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Aftercare<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Mild redness or warmth after treatment is completely normal and usually settles within a few hours.
+                           Treated hairs will gradually shed over the following 1–3 weeks.
+                           We’ll provide personalised aftercare advice and let you know when it is safe to resume normal skincare products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion"><button class="accordion-header">FAQs<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p><div class="question">How many sessions will I need?</div>
+                        Most clients require at least 6 treatments for best results.</p>
+                        <p><div class="question">Does it hurt?</div>
+                        Most people find the treatment very manageable with mild discomfort.</p>
+                        <p><div class="question">Can it treat all hair colours?</div>
+                        Laser & IPL work best on darker hair and are not usually effective on grey or white hair.</p>
+                        <p><div class="question">How often are appointments?</div>
+                        Treatments are usually spaced 4–8 weeks apart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- WAXING -->
+<section class="services" id="waxing">
+        <div class="services-content">
+            <p class="section-label"><br/>FOCUS ON: WAXING</p>
+            <h1>Waxing</h1>
+            <p class="tagline">Smooth skin. <br/>Long term results</p>
+	
+            <p>
+            Laser and IPL hair removal are long-term hair reduction treatments that use light energy to target and damage hair follicles. This helps slow down and reduce future hair growth over time.<br/>
+            The treatment works by directing light into the pigment (melanin) within the hair. The heat from the light damages the follicle while leaving the surrounding skin unharmed.<br/>
+            Because hair grows in cycles, multiple appointments are needed to achieve the best results. Treatments are timed to target hairs during their active growth stage.<br/>
+            Laser and IPL treatments can be used on both the face and body.
+            </p>
+        </div>
+        <div class="services-content">
+        
+                <section class="facts">
+                    <div class="container">
+                        <div class="facts-grid">
+                            <div class="fact-card">
+                                <div class="fact-label">Treatment Time</div>
+                                <div class="fact-value">10–60 mins</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Downtime</div>
+                                <div class="fact-value">Minimal</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Best For</div>
+                                <div class="fact-value">Face & Body</div>
+                            </div>
+                            <div class="fact-card">
+                                <div class="fact-label">Recommended Sessions</div>
+                                <div class="fact-value">6+ Treatments</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </div>
+ 
+
+ <!-- DETAILS -->
+
+<div class="services-content">
+    <div class="container">
+            <p>Explore the treatment process, suitability, preparation and aftercare for Laser & IPL Hair Removal at Buff & Bare.</p>
+
+        <div class="accordion-group">
+            <div class="accordion">
+                <button class="accordion-header">What It Is<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Laser and IPL hair removal are long-term hair reduction treatments that use light energy to target and damage hair follicles.
+                           The treatment works by directing light into the pigment within the hair, helping reduce future hair growth over time.
+                           Because hair grows in cycles, multiple appointments are needed to achieve the best results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Who Can Have It<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Laser & IPL hair removal is suitable for many people looking to reduce unwanted hair growth on the face or body.</p>
+                        <ul>
+                            <li>Most effective on darker hair</li>
+                            <li>Suitable for many skin types</li>
+                            <li>Grey and white hair cannot usually be treated effectively</li>
+                            <li>A consultation and patch test are required before treatment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Preparation<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Before treatment, we’ll assess your skin and hair type, discuss your medical history and answer any questions you may have.
+                           At each appointment your skin will be cleaned and prepared before treatment begins.
+                           Protective goggles are always provided during treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">The Experience<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>During treatment, a handheld device delivers pulses of light into the hair follicles while protecting the surrounding skin.
+                           Some treatments include cooling technology to make the experience more comfortable.
+                           Most clients describe the sensation as similar to a quick elastic band snap against the skin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-header">Aftercare<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p>Mild redness or warmth after treatment is completely normal and usually settles within a few hours.
+                           Treated hairs will gradually shed over the following 1–3 weeks.
+                           We’ll provide personalised aftercare advice and let you know when it is safe to resume normal skincare products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion"><button class="accordion-header">FAQs<span>+</span></button>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p><div class="question">How many sessions will I need?</div>
+                        Most clients require at least 6 treatments for best results.</p>
+                        <p><div class="question">Does it hurt?</div>
+                        Most people find the treatment very manageable with mild discomfort.</p>
+                        <p><div class="question">Can it treat all hair colours?</div>
+                        Laser & IPL work best on darker hair and are not usually effective on grey or white hair.</p>
+                        <p><div class="question">How often are appointments?</div>
+                        Treatments are usually spaced 4–8 weeks apart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+       <!-- CTA Section -->
+    <section class="cta" id="book">
+        <div class="cta-content">
+            <h2>Ready to feel confident in your skin?</h2>
+            <p>Book your consultation today and discover why hundreds of clients trust Buff & Bare for their hair removal journey.</p>
+            <a href="#" class="btn btn-primary" ;"><span>Book now</span></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <div id="footer-placeholder"></div>
+<script>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.animate-on-scroll, .value-card, .feature-item, .testimonial, .service-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+
+        // Mobile dropdown toggle
+if (window.innerWidth <= 768) {
+    document.querySelectorAll('.has-dropdown > a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const parent = link.parentElement;
+            parent.classList.toggle('active');
+        });
+    });
+}
+
+
+
+ // Mobile submenu toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const hasSubmenuItems = document.querySelectorAll('.has-submenu');
+    
+    // Hamburger toggle
+    hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+
+    // Mobile submenu handling
+    hasSubmenuItems.forEach(item => {
+        const link = item.querySelector('a');
+        const submenu = item.querySelector('.submenu');
+        
+        link.addEventListener('click', function(e) {
+            // Only prevent default and toggle on mobile
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                item.classList.toggle('active');
+                
+                // Close other open submenus
+                hasSubmenuItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+            }
+        });
+    });
+
+    // Close menu when clicking submenu items (not parent items)
+    const submenuLinks = document.querySelectorAll('.submenu a');
+    submenuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+                // Also close the submenu
+                hasSubmenuItems.forEach(item => {
+                    item.classList.remove('active');
+                });
+            }
+        });
+    });
+
+    // Close menu when clicking regular nav items (without submenus)
+    const regularNavLinks = document.querySelectorAll('.nav-links > li:not(.has-submenu) > a');
+    regularNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    });
+});
+
+// Function to load external HTML components
+async function loadComponent(elementId, filePath) {
+    try {
+        const response = await fetch(filePath);
+        if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+        const data = await response.text();
+        document.getElementById(elementId).innerHTML = data;
+    } catch (error) {
+        console.error("Error loading component:", error);
+    }
+}
+
+// Main initialization function
+async function initSite() {
+    // 1. Wait completely for the header to fetch and mount to the DOM
+    await loadComponent('header-placeholder', 'header.html');
+    await loadComponent('footer-placeholder', 'footer.html');
+    
+    // 2. Safely grab the mobile nav elements now that they exist on the page
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const hasSubmenu = document.querySelector('.has-submenu');
+
+    if (hamburger && navLinks) {
+        // Toggle Mobile Menu
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a:not(.has-submenu > a)').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    }
+
+    // Toggle Submenu Accordion on Mobile (Matches your CSS .has-submenu.active .submenu)
+    if (hasSubmenu) {
+        const submenuToggle = hasSubmenu.querySelector('a');
+        submenuToggle.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768) {
+                e.preventDefault(); // Prevents jumping to #services instantly on mobile
+                hasSubmenu.classList.toggle('active');
+            }
+        });
+    }
+}
+
+// Run everything when the DOM structure is ready
+window.addEventListener('DOMContentLoaded', initSite);
+
+const accordions = document.querySelectorAll('.accordion');
+
+accordions.forEach(accordion => {
+
+    const header = accordion.querySelector('.accordion-header');
+    const content = accordion.querySelector('.accordion-content');
+    const icon = accordion.querySelector('span');
+
+    header.addEventListener('click', () => {
+
+        const isOpen = content.style.maxHeight;
+
+        document.querySelectorAll('.accordion-content').forEach(item => {
+            item.style.maxHeight = null;
+        });
+
+        document.querySelectorAll('.accordion-header span').forEach(item => {
+            item.textContent = '+';
+        });
+
+        if(!isOpen){
+            content.style.maxHeight = content.scrollHeight + 'px';
+            icon.textContent = '−';
+        }
+
+    });
+
+});
+    </script>
+</body>
+</html>

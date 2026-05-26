@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buff & Bare | Hair Removal Clinic | St Albans & Hitchin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400...600&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <style>
+	.accordion-container { max-width: 800px; margin: 0 auto; font-family: 'Cormorant Garamond',serif; font-size:24px; font-style: italic;}
+	details { margin-bottom: 10px; border: 1px solid #ddd; border-radius: 5px; overflow: hidden; }
+	summary { padding: 15px; cursor: pointer; font-weight: bold; background: #f9f9f9; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+
+	summary::after { content: '＋'; font-size: 0.8em; font-style: normal;}
+	details[open] summary::after { content: '－'; }
+
+	.table-wrapper { overflow-x: auto; padding: 10px; }
+	table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+	th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; font-family: 'Jost', sans-serif; font-style: normal;font-size:0.8em;}
+	th { background: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <!--<img src="B&B new logo.png" alt="Buff & Bare" class="logo">-->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#team">The Team</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.html#book" class="btn btn-primary" style="font-size: 0.85rem; padding: 12px 24px; display: inline-flex; align-items: center;"><span>Book Now</span></a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section class="features" id="pricing">
+        <div class="features-content">
+            <h2>Price list</h2>
+                <div id="price-list-container" class="accordion-container">
+                    <!-- The JavaScript will inject the accordions here -->
+                </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+<script>
+async function loadPriceList() {
+    try {
+        const response = await fetch('price_list.json');
+        const data = await response.json();
+        
+        // Group data by category
+        const categories = data.reduce((acc, item) => {
+            if (!acc[item.Category]) acc[item.Category] = [];
+            acc[item.Category].push(item);
+            return acc;
+        }, {});
+
+        const container = document.getElementById('price-list-container');
+
+        // Create HTML for each category
+        for (const category in categories) {
+            const details = document.createElement('details');
+            details.setAttribute('name', 'price-group'); // This makes them exclusive
+
+            const summary = document.createElement('summary');
+            summary.textContent = category;
+            
+            const tableWrapper = document.createElement('div');
+            tableWrapper.className = 'table-wrapper';
+            
+            let tableHTML = `<table><thead><tr><th>Service</th><th>Duration</th><th>Cost</th></tr></thead><tbody>`;
+            categories[category].forEach(item => {
+                tableHTML += `<tr><td>${item.Service}</td><td>${item.Duration}</td><td>${item.Cost}</td></tr>`;
+            });
+            tableHTML += `</tbody></table>`;
+            
+            tableWrapper.innerHTML = tableHTML;
+            details.appendChild(summary);
+            details.appendChild(tableWrapper);
+            container.appendChild(details);
+        }
+    } catch (error) {
+        console.error("Error loading price list:", error);
+    }
+}
+
+loadPriceList();
+</script>
+

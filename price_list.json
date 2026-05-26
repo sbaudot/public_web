@@ -1,0 +1,830 @@
+[
+    {
+        "Category": "NHS Referrals",
+        "Service": "Hair removal consultation",
+        "Duration": "45 mins",
+        "Cost": "\u00a365"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Hair removal consultation",
+        "Duration": "30 mins",
+        "Cost": "\u00a330"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Hollywood laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a399"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Brazilian laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a399"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "G string laser hair removal",
+        "Duration": "25 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "High leg bikini laser hair removal",
+        "Duration": "20 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Buttocks laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a380"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Underarms laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a365"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Full leg laser hair removal",
+        "Duration": "1 hour",
+        "Cost": "\u00a3140"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "3/4 Leg laser hair removal",
+        "Duration": "45 mins",
+        "Cost": "\u00a3110"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Half lower legs laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Half upper legs laser hair removal",
+        "Duration": "45 mins",
+        "Cost": "\u00a395"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Toes laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a330"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Feet & toes laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a344"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Full arms laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Lower arms laser hair removal",
+        "Duration": "20 mins",
+        "Cost": "\u00a375"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Hands & fingers laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Chest laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a362"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Stomach laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Stomach line laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Nipples laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a335"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Full leg, bikini & underarm laser hair removal",
+        "Duration": "1 hour, 30 mins",
+        "Cost": "\u00a3286"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Half leg, bikini and underarm laser hair removal",
+        "Duration": "1 hour",
+        "Cost": "\u00a3226"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Female full body without hollywood",
+        "Duration": "3 hours, 30 mins",
+        "Cost": "\u00a3589"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Full body laser female including hollywood",
+        "Duration": "4 hours",
+        "Cost": "\u00a3688"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Upper lip laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Upper lip & chin laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a360"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Chin laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Chin and jawline laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a355"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Side of face laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Forehead laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Full face laser hair removal",
+        "Duration": "20 mins",
+        "Cost": "\u00a375"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Front of the neck laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a365"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Full face and neck laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a3120"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Lower back laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Between breast laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Chest and stomach laser hair removal",
+        "Duration": "45 mins",
+        "Cost": "\u00a3124"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Jawline Laser Hair Removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Female Periannal",
+        "Duration": "15 mins",
+        "Cost": "\u00a375"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Jawline & front of the neck",
+        "Duration": "20 mins",
+        "Cost": "\u00a385"
+    },
+    {
+        "Category": "Laser Hair Removal (female)",
+        "Service": "Inner Labia Laser Hair Removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a350"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Full back & shoulders laser hair removal",
+        "Duration": "45 mins",
+        "Cost": "\u00a3124"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male hollywood (Bum & Groin) laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a3110"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male groin laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Perianal laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a375"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Full back and shoulders and upper arm laser hair removal",
+        "Duration": "1 hour",
+        "Cost": "\u00a3140"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Lower back laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Upper back & shoulders laser hair removal",
+        "Duration": "20 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Shoulders and neck laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Full neck laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Back of neck laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a362"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Upper arms laser hair removal",
+        "Duration": "45 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Chest laser hair removal",
+        "Duration": "20 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Chest & stomach laser hair removal",
+        "Duration": "45 mins",
+        "Cost": "\u00a3124"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male full body without hollywood laser hair removal",
+        "Duration": "3 hours, 30 mins",
+        "Cost": "\u00a3639"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male full body inc hollywood laser hair removal",
+        "Duration": "4 hours",
+        "Cost": "\u00a3749"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male buttocks laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a374"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Full face male laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a399"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Shaving",
+        "Duration": "15 mins",
+        "Cost": "\u00a320"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Full neck and top of cheeks laser hair removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a399"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male Stomach laser hair removal",
+        "Duration": "20 mins",
+        "Cost": "\u00a385"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male Full Arm Laser Hair Removal",
+        "Duration": "30 mins",
+        "Cost": "\u00a387"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Male Underarms laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a365"
+    },
+    {
+        "Category": "Laser Hair Removal (male)",
+        "Service": "Top of cheeks laser hair removal",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "Electrolysis Hair Removal Consultation",
+        "Duration": "30 mins",
+        "Cost": "\u00a335"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "15 mins treatment",
+        "Duration": "20 mins",
+        "Cost": "\u00a335"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "20 min treatment",
+        "Duration": "25 mins",
+        "Cost": "\u00a340"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "25 min treatment",
+        "Duration": "30 mins",
+        "Cost": "\u00a350"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "30 mins treatment",
+        "Duration": "35 mins",
+        "Cost": "\u00a360"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "45 min treatment",
+        "Duration": "50 mins",
+        "Cost": "\u00a385"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "60 mins treatment",
+        "Duration": "1 hour, 5 mins",
+        "Cost": "\u00a3110"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "75 minutes electrolysis treatment",
+        "Duration": "1 hour, 20 mins",
+        "Cost": "\u00a3145"
+    },
+    {
+        "Category": "Electrolysis",
+        "Service": "90 minutes electrolysis treatment",
+        "Duration": "1 hour, 35 mins",
+        "Cost": "\u00a3170"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Brazilian wax",
+        "Duration": "40 mins",
+        "Cost": "\u00a352"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Hollywood wax",
+        "Duration": "40 mins",
+        "Cost": "\u00a352"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "High leg bikini wax",
+        "Duration": "20 mins",
+        "Cost": "\u00a332.50"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "G string wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a341"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Buttocks wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Underarms wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a320"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Full legs wax",
+        "Duration": "45 mins",
+        "Cost": "\u00a354"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Half lower legs wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a333"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Half upper legs wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a338.50"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Back of the full legs wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a334"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Full arms wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a333"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Forearms wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Upper arms wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Stomach wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Full legs & brazilian wax",
+        "Duration": "1 hour, 15 mins",
+        "Cost": "\u00a3106"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Half lower leg & brazilian wax",
+        "Duration": "1 hour",
+        "Cost": "\u00a385"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Half lower leg, brazilian & underarms wax",
+        "Duration": "1 hour, 15 mins",
+        "Cost": "\u00a3106"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Full legs & high leg bikini wax",
+        "Duration": "1 hour",
+        "Cost": "\u00a386.50"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Half lower leg and high leg bikini",
+        "Duration": "45 mins",
+        "Cost": "\u00a365.50"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Female back wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Lower Back Wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a322.50"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Full body wax including brazilian",
+        "Duration": "2 hours, 30 mins",
+        "Cost": "\u00a3243"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Back of the Neck",
+        "Duration": "15 mins",
+        "Cost": "\u00a318"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Back of the half legs",
+        "Duration": "15 mins",
+        "Cost": "\u00a318"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "3/4 leg wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a342"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Belly button",
+        "Duration": "15 mins",
+        "Cost": "\u00a318"
+    },
+    {
+        "Category": "Body Wax (female)",
+        "Service": "Nipples wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a323"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Male bum wax",
+        "Duration": "20 mins",
+        "Cost": "\u00a329"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Full back & shoulders wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Full back & shoulders and upper arm",
+        "Duration": "45 mins",
+        "Cost": "\u00a355"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Speedo line wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Lower back wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a325"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Upper back & shoulders wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a342"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Shoulders wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a325"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Full back, shoulders, chest & abs strip wax",
+        "Duration": "1 hour",
+        "Cost": "\u00a390"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Chest & stomach wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Chest wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a335"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Male stomach wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a335"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Male full legs wax",
+        "Duration": "1 hour",
+        "Cost": "\u00a360"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Male upper legs wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Lower legs & feet wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a339"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Feet & toes wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a326"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Full arms & hands wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a345"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Male underarms wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a326"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Forearms & hands wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a328"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Hands & fingers wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a328"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Male upper arm wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a328"
+    },
+    {
+        "Category": "Body Wax (male)",
+        "Service": "Nape of neck wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a325"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Ears, nostrils and eyebrows wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a330"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Nostrils wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a318"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Eyebrows wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Ears wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a317"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Cheekbones wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a317"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Between brow wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a317"
+    },
+    {
+        "Category": "Face Wax (male)",
+        "Service": "Ears and nostrils wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a320"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Chin wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Eyebrows tidy wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Eyebrow reshape wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a330"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Lip wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Lip & chin wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a326.50"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Full face wax",
+        "Duration": "30 mins",
+        "Cost": "\u00a347.50"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Sides of face wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a321"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "Nostril wax",
+        "Duration": "15 mins",
+        "Cost": "\u00a318"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "ADD ON Lip wax",
+        "Duration": "5 mins",
+        "Cost": "\u00a310"
+    },
+    {
+        "Category": "Face Wax (female)",
+        "Service": "ADD ON Nostril wax",
+        "Duration": "5 mins",
+        "Cost": "\u00a310"
+    }
+]
